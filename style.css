@@ -1,0 +1,628 @@
+body {
+    /* height: 20000px; */
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.home {
+    text-align: center;
+    padding: 170px;
+    background: url(img/img/slider/slider-01.jpg) repeat scroll center center / cover;
+    height: 60vh;
+    overflow: hidden;
+
+
+}
+
+.home h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 0 10px;
+
+}
+
+.home h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home h4 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 200;
+    margin: 0 0 10;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background: rgba(51, 51, 51, 0.5);
+    position: absolute;
+    padding-right: 0;
+    width: 100%;
+
+}
+
+.navbar .brand {
+    float: left;
+    width: 35%;
+    padding-left: 150px;
+    color: #ff305b;
+}
+
+.navbar .links {
+    float: left;
+    width: 50%;
+    margin-top: 10px 0px;
+}
+
+.navbar .links ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    padding-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0, 3s;
+
+}
+
+.navbar .links ul li:hover {
+    color: #ff305b;
+
+}
+
+
+.navbar .links .item {
+    color: #ff305b;
+    font-size: 16px;
+}
+
+/* .about {
+    width: 40%;
+}
+
+.about.frist {
+    height: 440px;
+    border: 10px solid #555555;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+}
+
+.about .frist .photo {
+    width: 100%;
+    height: 100%;
+    transform: translateX(24px) translateY(24px);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about .frist .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.about .frist .social {
+    background-color: rgba(o, 0, 0, 0.57);
+    color: rgb(64, 18, 18);
+    position: absolute;
+    top: 105%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50%;
+    border-radius: 5px;
+    transition: top 1s;
+
+}
+
+.about .frist .social ul li {
+    display: inline-block;
+}
+
+.about .frist:hover .social {
+    top: 0;
+} */
+
+.about {
+
+    overflow: hidden;
+    padding: 88px;
+    position: relative;
+}
+
+.about .frist {
+    width: 33%;
+    margin-left: 8px;
+    float: left;
+    position: relative;
+    vertical-align: middle;
+
+
+}
+
+.about .frist .photo {
+    border-width: 40px;
+    border: solid 7px;
+    border-radius: 3%;
+    border-color: #555;
+    position: relative;
+    display: block;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.about .photo img {
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    vertical-align: middle;
+    transform: translate(40px, 40px);
+
+}
+
+.about .photo .social {
+    background-color: rgba(32, 19, 19, 0.2);
+    color: #fff;
+    width: 95%;
+    height: 65%;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(35px, 10px);
+    transition: top 1s;
+    top: 110%;
+    padding-top: 50%;
+
+
+}
+
+
+.about .frist .photo .social ul {
+    width: 25px;
+    height: 25px;
+    padding: 20px 20px;
+    padding-top: 300px;
+    margin: auto;
+    float: left;
+}
+
+.about .frist .photo .social ul {
+
+    list-style: none;
+
+
+}
+
+.about .photo:hover .social {
+    top: 0%;
+
+}
+
+.about .content {
+    padding-right: 30px;
+    padding-left: 15px;
+    width: 50%;
+    height: 90%;
+    float: right;
+    color: #555555;
+    font-size: larger;
+
+}
+
+.about .content h2 {
+    color: #333;
+    font-size: 35px;
+
+}
+
+.about .content .profile-table .row {
+    display: inline;
+
+}
+
+.about .content .profile-table ul li {
+
+    display: table;
+    list-style: outside none none;
+    margin: 10;
+    padding: 0;
+    display: inline-table;
+}
+
+.about .content .profile-table ul span {
+    color: black;
+    /* display:table; */
+}
+
+
+.about .content .download button {
+
+    background-color: #ff305b;
+    color: #fff;
+    border-radius: 3%;
+    padding: 15px 25px;
+    margin: 10px;
+
+}
+
+.services {
+    background-color: #f1f1f1;
+    ;
+    text-align: center;
+    padding: 50px 50px;
+
+}
+
+.services h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.services img {
+    width: 20%;
+
+}
+
+.services .design {
+    /* background-color: aqua; */
+    padding: 15px 15px;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.services .div {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 2s, ;
+
+}
+
+.design:hover .div {
+    width: 95%;
+    /* height: 40%; */
+    background-color: rgb(rgba(94, 28, 28, 0.437));
+
+}
+
+.app:hover .div {
+    width: 95%;
+    /* height: 40%; */
+    background-color: rgb(rgba(94, 28, 28, 0.437));
+
+}
+
+.product:hover .div {
+    width: 95%;
+    /* height: 40%; */
+    background-color: rgb(rgba(94, 28, 28, 0.437));
+
+}
+
+.uxdesign:hover .div {
+    width: 95%;
+    /* height: 40%; */
+    background-color: rgb(rgba(94, 28, 28, 0.437));
+
+}
+
+
+.services .app {
+    /* background-color: aqua; */
+    padding: 15px 15px;
+    width: 20%;
+    display: inline-block;
+}
+
+.services .product {
+    /* background-color: aqua; */
+    padding: 15px 15px;
+    width: 20%;
+    display: inline-block;
+}
+
+.services .uxdesign {
+    /* background-color: aqua; */
+    padding: 15px 15px;
+    width: 20%;
+    display: inline-block;
+}
+
+.services h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.services p {
+    color: #555555;
+    margin: 0;
+}
+
+.portfolio {
+    /* background-color: antiquewhite; */
+    padding: 20PX 20px;
+}
+
+.portfolio .porthead {
+    /* background-color: deeppink; */
+    text-align: center;
+
+}
+
+.portfolio .porthead h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    padding-bottom: 30PX;
+    color: #333;
+
+}
+
+.portfolio .porthead ul li {
+
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px;
+
+}
+
+.porthead .all {
+    color: #ff305b
+}
+
+.portfolio .porthead ul button {
+    border: none;
+    background-color: transparent;
+}
+
+.portfolio .gallery {
+    margin-top: 50px;
+
+}
+
+.portfolio .gallery img {
+    width: 24%;
+    margin: 10px 10px;
+}
+
+
+
+.items {
+    text-align: center;
+    background: #f1f1f1;
+    display: inline-block;
+    overflow: hidden;
+    width: 1350px;
+    padding: 80px;
+    /* margin: 20px 20px; */
+
+}
+
+.item {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: auto; */
+    padding-bottom: 50px;
+}
+
+.item ul {
+    float: left;
+    margin: 20px 70px;
+    margin-bottom: 15px;
+}
+
+.item img {
+    width: 25%;
+}
+
+.item h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+
+.item p {
+    color: #555555;
+    font-size: 16px;
+    margin: 0;
+    color: #555555;
+    font-weight: 600;
+}
+
+.feedback {
+    background: #f1f1f1;
+    width: 50%;
+    height: auto;
+    /* overflow: hidden; */
+
+}
+
+.feedback .head {
+    text-align: center;
+    font-size: larger;
+    overflow: hidden;
+}
+
+.feedback .head h2 {
+    padding-top: 40px;
+}
+
+.feedback .feed img {
+    display: block;
+    width: 100%;
+}
+
+.feedback .feed .box {
+    width: 100%;
+    transform: skew(30deg);
+
+}
+
+.feedback .feed {
+    float: left;
+}
+
+.blog {
+    background: #f1f1f1;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.blog .head {
+   
+}
+
+.blog .head h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 30px;
+    /* margin-bottom: 40px;
+    padding-bottom: 30px; */
+    /* position: relative; */
+
+}
+
+
+
+.blog .row .div {
+    float: left;
+    background-color: #fff;
+    width: 22%;
+    margin: 10px 70px;
+    /* padding-left: 30px; */
+    padding-top: 30px;
+    /* padding-right: 30PX; */
+    color: #333;
+}
+
+.blog .row img {
+
+    width: 100%;
+}
+.blog .row button{
+    background-color: #fff;
+    border-style: none;
+    font-size: 30px;
+    color: #333;
+}
+
+.contact{
+    
+    padding: 60px 0;
+    color: #555555;
+
+    
+}
+.contact h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+
+.contact .form input{
+    padding: 20px 2px;
+    
+
+   
+   
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.contact .form input .nt{
+   width: 50%;
+}
+
+
+.contact .form button{
+    padding: 10px 20px;
+    background-color: #ff305b;
+    color:#fff;
+    border: #ff305b;
+}
+ .footer{
+    text-align: center;
+    padding-top: 80px;
+    background-color: #555555;;
+    height: 22%;
+ }
+
+
+
+
+
+/* .services {
+    background: #f1f1f1;
+    color: #555555;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+
+}
+
+.services h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: black;
+} */
+
+/* .services .div {
+    background-color: darkorchid;
+    width: 20%;
+    height: 100px;
+    padding: 20px 20px;
+} */
+
+/* .services .desgin {
+
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.services .desgin h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.services .desgin p {
+    margin: 0%;
+    font-size: 20px;
+} */
